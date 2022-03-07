@@ -13,7 +13,7 @@ public class SkipATestCase {
 	public void playmusic() {
 		System.out.println("play the music");
 	}
-	@Test(priority = 1)
+	@Test(priority = 1,inticative=2)
 	public void putfirstgear() {
 		System.out.println("shift to the first gear");
 	}
