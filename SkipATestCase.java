@@ -28,5 +28,8 @@ public class SkipATestCase {
 	@Test(priority = 4)
 	public void putforuthgear() {
 		System.out.println("shift to the foruth gear");
+	@Test(priority = 5)
+	public void putfifthgear() {
+		System.out.println("shift to the fifth gear");
 	}
 }
